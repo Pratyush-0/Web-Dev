@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    /* background: linear-gradient(45deg,#001f16,#0c8341); */
+    
+}
+
+.heading{
+    display: flex;
+    /* background: rgba(235, 0, 255, 0.11); */
+    /* backdrop-filter: blur(10px); */
+    text-shadow: 5px 5px rgba(32, 31, 31, 0.904);
+    color: white;
+    width: 40vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-280%);
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+/* button */
+.gen{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-250%);
+    width: 220px;
+    height: 40px;
+    /* margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 2px 3px black;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.gen:hover{
+    background-color: #c1ab1b;
+}
+.gen p{
+    color: #695e16;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+    text-shadow: 2px 2px rgba(86, 86, 86, 0.416);
+}
+.gen p:hover{
+    color: white;
+}
+/* button end */
+
+
+.quote{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    /* background-color: rgb(5, 81, 5); */
+    padding: 8px;
+    /* border-style: solid;
+    border-width: 3px;*/
+    border-radius: 10px; 
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    /* box-shadow: 5px 8px 5px 5px rgba(40, 40, 40, 0.596); */
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(2px);
+}
+.quote #src{
+    font-size: 20px;
+}
