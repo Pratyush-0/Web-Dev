@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+/* main box */
+.card{
+    display: grid;
+    height: 90vh;
+    width: 30vw;
+    background-color: rgba(60, 60, 62, 0.137);
+    /* justify-content: center; */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+
+/* top section */
+.top{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 22vw;
+    height: 6.7vh;
+    border-radius: 20px;
+    margin-right: 15px;
+    appearance: none;
+    border: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: grey;
+}
+input:hover{
+    background-color: rgb(191, 189, 189);
+}
+input:focus{
+    background-color: white;
+}
+#search{
+    width: 3.2vw;
+    height: 6.7vh;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: grey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#search img{
+    height: 3.3vh;
+}
+#search:hover{
+    background-color: rgb(191, 189, 189);
+}
+#search:active{
+    background-color: white;
+}
+/* top section end */
+
+
+/* .mainSec{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+} */
+
+.weatherIcon{
+    width: 190px;
+    margin-top: -10px;
+}
+.temp{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+}
+.city{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 9px; */
+    padding-left: 25px;
+    margin-top: 50px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.section img{
+    width: 50px;
+    margin-right: 10px;
+}
+.text{
+    color: white;
+    font-size: 12px;
+}
+.humidity,.wind{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
